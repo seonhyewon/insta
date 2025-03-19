@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인스타 클론코딩</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a3d8a58cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="top">
         <img src="https://fontmeme.com/images/instagram-new-logo.png" alt="인스타그램 로고" />
         <input type="search" value="검색" />
-        
+        <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+        </div>
     </div>
 
     <div id="profile">
-        <img src="image/profile.jpg" alt="프로필 이미지"/>
-        <div>
-            <h2>my_apricity</h2>
+        <div id="profile_pic">
+            <img src="image/profile.jpg" alt="프로필 이미지" class="circle_pic"/>
+        </div>
+        
+        <div id="profile_info">
+            <div id="id">my_apricity
+                <i class="fas fa-cog"></i>
+            </div>
             <button>프로필 편집</button>
         </div>
     </div>
@@ -31,19 +42,23 @@
             </a>
         </p>
     </div>
+    <div id="highlight_area">
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img src="image/hl1.jpg" alt="하이라이트 이미지1" class="circle_pic"/>
+            </div>
+            <div>😎</div>
+        </div>
 
-    <div class="highllight">
-        <div>
-            <img src="image/hl1.jpg" alt="하이라이트 이미지1" />
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img src="image/hl2.jpg" alt="하이라이트 이미지2" class="circle_pic"/>
+            </div>
+            <div>🥰</div>
         </div>
-        <div>😎</div>
+        <div></div>
     </div>
-    <div>
-        <div>
-            <img src="image/hl2.jpg" alt="하이라이트 이미지2"/>
-        </div>
-        <div>🥰</div>
-    </div>
+   
     
     <div id="stat_bar">
         <div class="stat">
@@ -61,19 +76,42 @@
     </div>
 
     <div id="sub_icons">
-
+        <div class="selected">
+            <i class="fas fa-border-all"></i>
+        </div>
+        <div>
+            <i class="fas fa-film"></i>
+        </div>
+        <div>
+            <i class="far fa-play-circle"></i>
+        </div>
+        <div>
+            <i class="far fa-bookmark"></i>
+        </div>
+        <div>
+            <i class="fas fa-user-tag"></i>
+        </div>
     </div>
 
     <div>
-        <img src="image/thumnails/1.jpg" alt="썸네일이미지1"/>
-        <img src="image/thumnails/2.jpg" alt="썸네일이미지2"/>
-        <img src="image/thumnails/3.jpg" alt="썸네일이미지3"/>
-        <img src="image/thumnails/4.jpg" alt="썸네일이미지4"/>
-        <img src="image/thumnails/5.jpg" alt="썸네일이미지5"/>
-        <img src="image/thumnails/6.jpg" alt="썸네일이미지6"/>
-        <img src="image/thumnails/7.jpg" alt="썸네일이미지7"/>
-        <img src="image/thumnails/8.jpg" alt="썸네일이미지8"/>
-        <img src="image/thumnails/9.jpg" alt="썸네일이미지9"/>
+        <div class="thumbnail_grid">
+            <img src="image/thumnails/1.jpg" alt="썸네일이미지1" class="thumnail"/>
+            <img src="image/thumnails/2.jpg" alt="썸네일이미지2" class="thumnail"/>
+            <img src="image/thumnails/3.jpg" alt="썸네일이미지3" class="thumnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumnails/4.jpg" alt="썸네일이미지4" class="thumnail"/>
+            <img src="image/thumnails/5.jpg" alt="썸네일이미지5" class="thumnail"/>
+            <img src="image/thumnails/6.jpg" alt="썸네일이미지6" class="thumnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumnails/7.jpg" alt="썸네일이미지7" class="thumnail"/>
+            <img src="image/thumnails/8.jpg" alt="썸네일이미지8" class="thumnail"/>
+            <img src="image/thumnails/9.jpg" alt="썸네일이미지9" class="thumnail"/>
+        </div>
+        
+        
+        
     </div>
 
 </body>
