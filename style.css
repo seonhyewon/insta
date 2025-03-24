@@ -64,7 +64,8 @@ body {
     font-weight: 100;
     margin-bottom: 10px;
 }
-button {
+
+#profileEditButton {
     height: 80%;
     width: 90%;
     font-size: 3vw;

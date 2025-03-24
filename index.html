@@ -6,6 +6,7 @@
     <title>인스타 클론코딩</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5a3d8a58cb.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div id="top">
@@ -25,23 +26,27 @@
         </div>
         
         <div id="profile_info">
-            <div id="id">my_apricity
+            <div id="id">
+                <span>my_apricity</span>
                 <i class="fas fa-cog"></i>
-            </div>
-            <button>프로필 편집</button>
+             </div>
+            <button id="profileEditButton">프로필 편집</button>
         </div>
     </div>
-
-    <p>선혜원 (Seon hyewon)</p>
-    <p>웹디자이너</p>
-
+    
     <div>
         <p>
+            <strong id="userInfo">선혜원 (Seon hyewon)</strong><br />
+            <span id="summary">웹디자이너</span>
+        </p>
+
+        <p id="profileDetail">
             <a href="https://github.com/seonhyewon">
                 https://github.com/seonhyewon
             </a>
         </p>
     </div>
+
     <div id="highlight_area">
         <div class="highlight">
             <div class="highlight_pic">
